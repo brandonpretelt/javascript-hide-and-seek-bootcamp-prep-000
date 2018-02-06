@@ -22,7 +22,7 @@ function deepestChild() {
         if (divs[i].innerHTML === "") {
             return false;
         } else {
-           return divs[i].textContent;
+           return divs[i].querySelector(":last-child");
         }
     }
 }
