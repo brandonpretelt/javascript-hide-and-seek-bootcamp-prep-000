@@ -26,6 +26,6 @@ function deepestChild() {
             return false;
         } else {
            return divs[i].querySelector(":last-child");
-        } */
-    }
+        } 
+    } */
 }
