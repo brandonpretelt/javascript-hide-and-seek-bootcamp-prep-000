@@ -21,11 +21,4 @@ function deepestChild() {
     for (let i = 0; i < divs.length; i +=1 ) {
       return divs[i].querySelector(":last-child");
     }
-    /*for (let i = 0; i < divs.length; i += 1) {
-        if (divs[i].innerHTML === "") {
-            return false;
-        } else {
-           return divs[i].querySelector(":last-child");
-        } 
-    } */
 }
